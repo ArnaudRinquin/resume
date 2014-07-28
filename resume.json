@@ -1,0 +1,71 @@
+{
+  "bio": {
+    "firstName": "Arnaud",
+    "lastName": "Rinquin",
+    "email": {
+      "work": "richard@piedpiper.com",
+      "personal": "rinquin.arnaud@gmail.com"
+    },
+    "phone": {
+      "personal": "+33 6 42 51 68 01"
+    },
+    "summary": "Summary",
+    "location": {
+      "city": "Bordeaux",
+      "countryCode": "FR"
+    },
+    "websites": {
+      "blog": "http://arnaudrinquin.github.io"
+    },
+    "profiles": {
+      "github": "ArnaudRinquin",
+      "twitter": "ArnaudRinquin"
+    }
+  },
+  "work": [
+    {
+      "company": "Wopata",
+      "position": "Full stack web developer",
+      "website": "http://wopata.com",
+      "startDate": "2013-07-10",
+      "summary": "Full stack Ruby on Rails / NodeJS / Angular developments for both external clients and corporate products. Lead front-end / javascript developer.",
+      "highlights": [
+        "100K+ users health application payment integration design and development",
+        "From technical design to implementation of a realtime collaborative rich text editor: storyteller.grp-lab.com"
+      ]
+    },
+    {
+      "company": "Orange Labs",
+      "position": "Smart Home solutions engineer",
+      "website": "http://www.orange.com/fr/innovation",
+      "startDate": "2011-08-15",
+      "endDate": "2013-07-07",
+      "summary": "Technical design, normalization and project management around Smart Home solutions. I worked on every piece of the chain: outlet to gateway to plateform to web portal.",
+      "highlights": [
+        "ZigBee protocol interface normalization within OSGi Alliance",
+        "100 user real-life experiment technical management",
+        "Web portal development"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ecole National Superieur des Télécommunication de Bretagne",
+      "startDate": "2007-09-01",
+      "endDate": "2010-08-31",
+      "area": "Information Technology, network and telecomunications",
+      "studyType": "Engineering school"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ]
+}

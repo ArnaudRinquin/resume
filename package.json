@@ -1,0 +1,26 @@
+{
+  "name": "my-resume",
+  "version": "0.0.0",
+  "description": "My resume in `.json`. Exportable to `.html` and `.pdf`",
+  "main": "resume.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ArnaudRinquin/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Arnaud Rinquin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnaudRinquin/resume/issues"
+  },
+  "homepage": "https://github.com/ArnaudRinquin/resume",
+  "dependencies": {},
+  "devDependencies": {
+    "resume": "0.0.1"
+  }
+}
