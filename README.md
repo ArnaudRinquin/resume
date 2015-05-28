@@ -8,9 +8,12 @@ Assuming node is installed, simply:
 npm i
 ```
 
-# Exporting to pdf, html
+# Exporting
 
 ```
-resume resume.json
-```
+npm run pdf
 
+# or
+
+npm run html
+```

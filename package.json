@@ -1,10 +1,11 @@
 {
-  "name": "my-resume",
+  "name": "arnaud-rinquin-resume",
   "version": "0.0.0",
   "description": "My resume in `.json`. Exportable to `.html` and `.pdf`",
   "main": "resume.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "resume export arnaud-rinquin-resume.html -F -t Elegant",
+    "pdf": "resume export arnaud-rinquin-resume.pdf -F -t Elegant"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   "homepage": "https://github.com/ArnaudRinquin/resume",
   "dependencies": {},
   "devDependencies": {
-    "resume": "0.0.1"
+    "resume-cli": "^0.3.13"
   }
 }
