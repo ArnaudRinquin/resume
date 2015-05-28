@@ -1,71 +1,217 @@
 {
-  "bio": {
-    "firstName": "Arnaud",
-    "lastName": "Rinquin",
-    "email": {
-      "work": "richard@piedpiper.com",
-      "personal": "rinquin.arnaud@gmail.com"
-    },
-    "phone": {
-      "personal": "+33 6 42 51 68 01"
-    },
-    "summary": "Summary",
+  "basics": {
+    "name": "Arnaud Rinquin",
+    "label": "Javascript developer",
+    "picture": "http://www.gravatar.com/avatar/d2c945536f8b82fb2a18c6f78a4132d1?s=100&r=pg&d=mm",
+    "email": "rinquin.arnaud@gmail.com",
+    "phone": "+44 7479 088826",
+    "website": "",
+    "summary": "I am a 7 years experienced french software engineer. I am now specialized in web development using Javascript in all its forms. I am experienced in a wide range of environments: Web, mobile, smart TV and home automation. I value both technical excellence and organizational efficiency as I see software development as a craftsmanship. I am versatile, adaptable and very sociable. “Always improve” is my motto.",
     "location": {
-      "city": "Bordeaux",
-      "countryCode": "FR"
+      "address": "Flat 18, 1 Hare Marsh",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "UK",
+      "region": "England"
     },
-    "websites": {
-      "blog": "http://arnaudrinquin.github.io"
-    },
-    "profiles": {
-      "github": "ArnaudRinquin",
-      "twitter": "ArnaudRinquin"
-    }
+    "profiles": []
   },
   "work": [
     {
-      "company": "Wopata",
-      "position": "Full stack web developer",
-      "website": "http://wopata.com",
-      "startDate": "2013-07-10",
-      "summary": "Full stack Ruby on Rails / NodeJS / Angular developments for both external clients and corporate products. Lead front-end / javascript developer.",
+      "company": "Qumu / Kulu Valley",
+      "position": "Web developer",
+      "website": "http://www.qumu.com/",
+      "startDate": "2014-11-24",
+      "endDate": "",
+      "summary": "I joined Qumu with several objectives: apply and improve my javascript development skills, enjoy a developer friendly environment and experience life abroad. I did not take me long to take on the Qumu Cloud platform and improve its frontend application architecture and overall quality, for the rest of the team and users to enjoy.",
       "highlights": [
-        "100K+ users health application payment integration design and development",
-        "From technical design to implementation of a realtime collaborative rich text editor: storyteller.grp-lab.com"
+        "Improved frontend application architecture by applying best practices",
+        "Refactored aging toolchain to cutting edge tools",
+        "Refactored legacy code into state-of-the-art AngularJS modules",
+        "Integrated Internationalization"
       ]
     },
     {
-      "company": "Orange Labs",
-      "position": "Smart Home solutions engineer",
-      "website": "http://www.orange.com/fr/innovation",
-      "startDate": "2011-08-15",
-      "endDate": "2013-07-07",
-      "summary": "Technical design, normalization and project management around Smart Home solutions. I worked on every piece of the chain: outlet to gateway to plateform to web portal.",
+      "company": "Wopata",
+      "position": "Web developer",
+      "website": "http://wopata.com/",
+      "startDate": "2013-06-12",
+      "endDate": "2014-11-14",
+      "summary": "Joining Wopata was an opportunity for me to return to my favorite job: web development. In this startup-like context, I learned a lot on both technical and non-technical matters. I was quickly given responsibility of designing some crucial project components or even entire project. While I started on Ruby on Rails based projects, I helped the company transition to frontend web technologies such as AngularJS.",
       "highlights": [
-        "ZigBee protocol interface normalization within OSGi Alliance",
-        "100 user real-life experiment technical management",
-        "Web portal development"
+        "Single handedly R&D, architectured and developed a collaborative rich text editor. Based on Ruby on Rails, AngularJS and ShareJS. Try it at: https://storyteller.grp-lab.com/",
+        "Responsible of boddy.io (100K+ users health advising application) payment API development. Based on Node.js™, Parse.com and Stripe.com.",
+        "Developed efficient data importers and mobile app synchronizer for a retailing company app."
+      ]
+    },
+    {
+      "company": "Orange",
+      "position": "Smart-Home engineer",
+      "website": "http://orange.com",
+      "startDate": "2011-07-01",
+      "endDate": "2013-06-10",
+      "summary": "Less than a year after leaving Orange, I was hired back as a Smart-Home engineer. It was an opportunity for me to experience another context: smart homes. It was also a chance to take on a new kind of responsibilities, far from the code, by managing a team of 4 people and take part of standardisation processes.",
+      "highlights": [
+        "M2M Gateway (hardware + software) scenarios feasibility analysis",
+        "Infrastructure & platform functional architecture",
+        "Web portal conception and development for a smart home related project",
+        "OSGi Alliance representative - Home automation working group."
+      ]
+    },
+    {
+      "company": "SII",
+      "position": "Software developer",
+      "website": "http://groupe-sii.com/",
+      "startDate": "2010-09-10",
+      "endDate": "2011-06-30",
+      "summary": "With a degree in my pocket, I quickly joined SII as a software engineering consultant and indirectly worked for my former colleagues. It was an opportunity for we to increase my knowledge of the web technologies, which I already loved.",
+      "highlights": [
+        "Development and support for the Orange corporate javascript framework",
+        "Rich Internet Application development for Orange Business Service",
+        "Architecture and development for an Orange Smart-TV multimedia service"
+      ]
+    },
+    {
+      "company": "Orange",
+      "position": "Software engineering apprentice",
+      "website": "https://orange.com/",
+      "startDate": "2007-09-01",
+      "endDate": "2010-09-01",
+      "summary": "For my first steps as a professional developer, I had the chance to join Orange and work on many projects in a huge variety of environments and technologies.",
+      "highlights": [
+        "New generation of set-top-box application development using Google Web Toolkit",
+        "Multi-device development solutions study",
+        "Social API development under JavaEE",
+        "Mobile platform widget development"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Festiv'IT",
+      "position": "Founding member",
+      "website": "http://www.festivit.org/",
+      "startDate": "2009-07-14",
+      "endDate": "",
+      "summary": "Friends and myself have created an association that provides IT support for events, mainly music festivals. We joyfully deploy WiFi and phone networks in temporary and sometime hostile environments. Today this association helps about 15 events a year.",
+      "highlights": [
+        "Vieilles Charrues Music festival since 2009",
+        "Papillons de nuit Music festival 2010, 2011 and 2015",
+        "Saint Nolff music festival 2010"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Ecole National Superieur des Télécommunication de Bretagne",
-      "startDate": "2007-09-01",
-      "endDate": "2010-08-31",
-      "area": "Information Technology, network and telecomunications",
-      "studyType": "Engineering school"
+      "institution": "Ecole National Superieur des Télécommunication de Bretagne, Brest, France",
+      "area": "Information Technology, network and telecommunications engineer",
+      "studyType": "Engineering school",
+      "startDate": "2007-08-30",
+      "endDate": "2010-08-30",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "IUT Vannes, France",
+      "area": "Computer Science",
+      "studyType": "DUT (Technical Degree)",
+      "startDate": "2005-09-01",
+      "endDate": "2007-06-30",
+      "gpa": "",
+      "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Frontend Web Development",
+      "level": "",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "AngularJS",
+        "ReactJS",
+        "Flux Architecture(s)",
+        "Collaborative applications",
+        "Offline applications",
+        "Data visualization",
+        "Localization"
+      ]
+    },
+    {
+      "name": "Javascript applications & paradigms",
+      "level": "",
+      "keywords": [
+        "Functional",
+        "Reactive",
+        "ES6",
+        "Coffeescript",
+        "Frontend",
+        "Backend",
+        "CLI tools"
+      ]
+    },
+    {
+      "name": "API developement",
+      "level": "",
+      "keywords": [
+        "Node.js™",
+        "API and SaaS integrations",
+        "Workers",
+        "noSQL DB",
+        "SQL DB"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "level": "",
+      "keywords": [
+        "git",
+        "git-flow",
+        "code review",
+        "setting toolchains (gulp, grunt, webpack, browserify and many more)",
+        "TDD",
+        "Continuous integration and deployment"
       ]
     }
-  ]
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Biking",
+      "keywords": [
+        "Riding",
+        "Commuting",
+        "Building & fixing"
+      ]
+    },
+    {
+      "name": "Squash",
+      "keywords": [
+        "Play",
+        "Teach friends",
+        "Watch pro leagues"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Festivals",
+        "Concerts",
+        "Indie",
+        "Post-rock",
+        "Electro-acoustic",
+        "Discovering new bands"
+      ]
+    }
+  ],
+  "references": []
 }
