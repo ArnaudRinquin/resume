@@ -18,11 +18,22 @@
   },
   "work": [
     {
+      "company": "Songkick",
+      "position": "Frontend developer",
+      "website": "https://songkick.com/",
+      "startDate": "2015-06-01",
+      "endDate": "",
+      "summary": "As member of the product team, I work mostly on delivering and maintaining frontend features in a very Lean process.",
+      "highlights": [
+        "Deliver and maintain features for an AngularJS based white-label embeddable live music ticket store",
+        "Architecture and development of a Facebook SDK data capture portal based on ReactJS and redux "
+      ]
+    },{
       "company": "Qumu / Kulu Valley",
       "position": "Web developer",
       "website": "http://www.qumu.com/",
       "startDate": "2014-11-24",
-      "endDate": "",
+      "endDate": "2015-05-29",
       "summary": "I joined Qumu with several objectives: apply and improve my javascript development skills, enjoy a developer friendly environment and experience life abroad. I did not take me long to take on the Qumu Cloud platform and improve its frontend application architecture and overall quality, for the rest of the team and users to enjoy.",
       "highlights": [
         "Improved frontend application architecture by applying best practices",
