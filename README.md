@@ -17,3 +17,9 @@ npm run pdf
 
 npm run html
 ```
+
+# Publish on github pages
+
+```
+npm run pages
+```
