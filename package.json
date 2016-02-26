@@ -5,7 +5,7 @@
   "main": "resume.json",
   "scripts": {
     "html": "resume export arnaud-rinquin-resume.html -F -t Elegant",
-    "pdf": "resume export arnaud-rinquin-resume.pdf -F -t Elegant",
+    "pdf": "resume export arnaud-rinquin-resume.pdf -F -f pdf -t Elegant",
     "pages": "npm run pages:pull && npm run pages:compile && npm run pages:push",
     "pages:pull": "git checkout gh-pages && git pull --rebase origin master",
     "pages:compile": "resume export index.html -F -t Elegant",
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/ArnaudRinquin/resume",
   "dependencies": {},
   "devDependencies": {
-    "resume-cli": "^0.3.13"
+    "resume-cli": "^0.4.10"
   }
 }
